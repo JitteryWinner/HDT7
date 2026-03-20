@@ -1,6 +1,9 @@
-import static org.junit.Assert.*;
-import org.junit.Test;
 package hdt7;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import org.junit.jupiter.api.Test;
 
 public class ArbolBinarioTest {
 

@@ -1,7 +1,8 @@
+package hdt7;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-package hdt7;
+
 
 /**
  * Clase encargada de leer el archivo diccionario.txt
