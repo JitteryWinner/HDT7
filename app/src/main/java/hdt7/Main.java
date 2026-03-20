@@ -6,9 +6,9 @@ package hdt7;
 public class Main {
 
     public static void main(String[] args) {
-
-        String rutaDiccionario = "data/diccionario.txt";
-        String rutaTexto = "data/texto.txt";
+        
+        String rutaDiccionario = "app/src/main/resources/diccionario.txt";
+        String rutaTexto = "app/src/main/resources/texto.txt";
 
         // Cargar diccionario
         ArbolBinario<Asociacion<String, String>> arbol =
