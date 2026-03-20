@@ -56,4 +56,20 @@ public class ArbolBinario<E extends Comparable<E>> {
             return buscarRec(actual.derecho, valor);
         }
     }
+    // Agregar este método a tu clase ArbolBinario
+
+    /**
+     * Recorrido in-order (izquierda, raíz, derecha)
+     */
+    public void inOrder() {
+        inOrderRec(raiz);
+    }
+
+    private void inOrderRec(Nodo<E> actual) {
+        if (actual != null) {
+            inOrderRec(actual.izquierdo);
+            System.out.println(actual.dato);
+            inOrderRec(actual.derecho);
+        }
+}
 }
