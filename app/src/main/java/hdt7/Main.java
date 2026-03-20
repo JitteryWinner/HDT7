@@ -7,12 +7,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String ruta = "data/diccionario.txt";
+        String rutaDiccionario = "data/diccionario.txt";
+        String rutaTexto = "data/texto.txt";
 
+        // Cargar diccionario
         ArbolBinario<Asociacion<String, String>> arbol =
-                LectorDiccionario.cargarDiccionario(ruta);
+                LectorDiccionario.cargarDiccionario(rutaDiccionario);
 
-        System.out.println("Diccionario en orden (In-Order):");
+        // Mostrar diccionario ordenado
+        System.out.println("Diccionario en orden");
         arbol.inOrder();
+
+        System.out.println("\nTraducción");
+
+        // Traducir texto
+        Traductor.traducirTexto(rutaTexto, arbol);
     }
 }
