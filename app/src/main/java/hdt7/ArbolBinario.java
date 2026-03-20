@@ -1,3 +1,4 @@
+package hdt7;
 /**
  * Árbol Binario de Búsqueda (BST)
  * 

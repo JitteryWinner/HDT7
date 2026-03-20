@@ -1,3 +1,4 @@
+package hdt7;
 /**
  * Nodo para el árbol binario
  */
